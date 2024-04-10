@@ -22,6 +22,7 @@
     }
   ],
   "rules": {
+    "import/no-extraneous-dependencies": ["error", {"devDependencies": true}],
     "prettier/prettier": "error",
     "react/jsx-filename-extension": [1, {"extensions": [".js", ".jsx"]}],
     "react/state-in-constructor": "off",
@@ -35,6 +36,7 @@
         "labelAttributes": ["htmlFor"]
       }
     ],
+
     "jsx-a11y/click-events-have-key-events": 0,
     "jsx-a11y/no-noninteractive-element-interactions": [
       "off",
