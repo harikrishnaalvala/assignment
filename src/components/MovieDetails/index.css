@@ -1,54 +1,106 @@
 .movie-details-container {
-  background-color: #252525;
-  color: white;
-}
-.movie-details-loading {
   display: flex;
-  background-color: #252525;
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 89vh;
+  flex-direction: column;
+  background-color: #1c2730;
+  min-height: 100vh;
 }
 
-.movie-details-loading p {
-  font-size: 27px;
-}
-.movie-details {
+.details-container {
   display: flex;
-  padding: 50px;
+  flex-direction: row;
+  background-color: #021624;
+  border-radius: 15px;
+  margin: 20px;
 }
-.movie-details img {
-  height: 500px;
-  margin-right: 20px;
-  margin-bottom: 20px;
-}
-.info h2 {
-  color: red;
-  padding-bottom: 10px;
-}
-.info p {
-  padding-bottom: 10px;
-}
-.movie-details-container h3 {
-  color: red;
-  font-size: 40px;
-  padding-left: 50px;
-}
-.cast-list {
+
+.image-title-container {
   display: flex;
+  flex-direction: row;
+}
+
+.poster-img {
+  height: 200px;
+  width: 150px;
+  margin-right: 10px;
+  margin: 20px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 0px;
+}
+
+.movie_title {
+  margin-left: 0px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-bottom: 0px;
+}
+
+.overview-container {
+  margin: 20px;
+}
+
+.overview {
+  color: #cacccf;
+  font-size: 18px;
+}
+
+.overview_heading {
+  color: #ffffff;
+  margin-left: 0px;
+  font-size: 20px;
+}
+
+.rating {
+  color: #77a3e6;
+}
+
+.releaseDate {
+  color: #cacccf;
+}
+
+.duration {
+  color: #cacccf;
+}
+
+.backdrop_image {
+  margin-right: 0px;
+  border-radius: 15px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.profilePath {
+  height: 180px;
+  width: 120px;
+}
+
+.cast-container {
+  display: flex;
+  flex-direction: row;
   flex-wrap: wrap;
-  padding: 50px;
-  list-style: none;
+  margin: 30px;
 }
-.cast-list li {
-  margin-right: 20px;
-  margin-bottom: 20px;
+
+.cast-member {
+  width: 150px;
+  margin: 20px;
 }
-@media (max-width: 578px) {
-  .movie-details {
-    display: flex;
-    flex-direction: column;
-  }
+
+.name {
+  color: #ffffff;
+}
+
+.character {
+  color: #ffffff;
+}
+
+.cast_heading {
+  margin-left: 20px;
+  font-size: 30px;
+  color: #ffffff;
+  margin-bottom: 10px;
 }
