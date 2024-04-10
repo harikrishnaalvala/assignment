@@ -19,7 +19,7 @@ const MovieDetails = () => {
 
       try {
         const response = await fetch(
-          `https://api.themoviedb.org/3/movie/${id}?api_key=28cd1a02f267ddfad6c7720a93b85e07&language=en-US`,
+          `https://api.themoviedb.org/3/movie/${movie_id}?api_key=${Api_key}&language=en-US`,
           options,
         )
         const data = await response.json()
@@ -46,7 +46,7 @@ const MovieDetails = () => {
       }
       try {
         const response = await fetch(
-          `https://api.themoviedb.org/3/movie/${id}/credits?api_key=28cd1a02f267ddfad6c7720a93b85e07&language=en-US`,
+          `https://api.themoviedb.org/3/movie/${movie_id}/credits?api_key=${Api_key}&language=en-US`,
           options,
         )
         const data = await response.json()
