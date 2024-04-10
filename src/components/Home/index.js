@@ -18,7 +18,7 @@ class Home extends Component {
       method: 'GET',
     }
     const response = await fetch(
-      'https://api.themoviedb.org/3/movie/popular?api_key=fa030b3d520335437ba6c4cbb262cfcb&language=en-US&page=1',
+      'https://api.themoviedb.org/3/movie/popular?api_key=${Api_key}&language=en-US&page=1',
       options,
     )
 
