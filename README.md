@@ -1,115 +1,32 @@
-Write the objective of the assignment yourself
+Explore the World of Cinema: Browsing, Top Rated, Upcoming, and Search Movies on MoviesDB
+MoviesDB offers a seamless movie browsing experience, where users can explore an extensive collection of films across various genres. Additionally, users can access top-rated and upcoming movies sections to discover critically acclaimed releases and anticipate upcoming releases. The platform also provides a robust search functionality, enabling users to find specific movies based on titles, genres, or keywords. Upon selecting a movie, users are redirected to a detailed movie details page, showcasing comprehensive information including synopses, cast details, trailers, ratings, and more. With these features, MoviesDB aims to provide users with a comprehensive movie discovery and exploration platform, catering to diverse preferences and interests in the world of cinema.
 
-### Refer to the image below:
+Want to see our website have more curiosity of browsing movies then click here
+https://9gpsqy-3000.csb.app/
+Landing Page(Popular Movies Page)
+image
 
-Add UI reference image yourself
+Top-rated Movies Page
+image
 
-<div style="text-align: center;">
-     <!-- <img src="remove this text and add the image URL" alt="ui"> -->
-</div>
-<br/>
+Upcoming Movies Page
+image
 
-### Design Files
+Search Movies Page
+1.![Results Not Found]image 2.![Results Found]image
 
-<details>
-<summary>Add Route Name</summary>
-<br/>
-Add the design files according to the route (if any) and responsiveness
+How to Start This Application on Your Local PC
+To start this application on your local PC, follow these step-by-step instructions:
 
-<!-- - [Extra Small (Size < 576px) and Small (Size >= 576px)](remove this text and add the image URL here)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px)](remove this text and add the image URL here) -->
-
-</details>
-
-### Set Up Instructions
-
-<details>
-<summary>Click to view</summary>
-
-- Download dependencies by running `npm install`
-- Start up the app using `npm start`
-
-</details>
-
-### Assignment Completion Instructions
-
-<details>
-<summary>Functionality to be added</summary>
-<br/>
-
-The app must have the following functionalities:
-
-- Add all the functionalities to be achieved(according to the route, if any) yourself
-
-</details>
-
-### Assignment Completion Checklist
-
-<details>
-<summary>Click to view</summary>
-
-- **Along with the below points, add your checklist specific to the assignment**
-
-- Read the instructions given in the assignment carefully and list down the **Assignment Completion Checklist** for the assignment and start working on it
-- The completion Checklist includes the below-mentioned points
-  - I have completed all the functionalities asked in the assignment
-  - I have used only the resources (Frameworks, Design files, APIs, third-party packages) mentioned in the assignment
-  - I have modified the README.md file based on my assignment instructions
-  - I have completed the assignment **ON TIME**
-- **Note:**
-  - Ensure that you have marked all the checklist points in your completion checklist before submitting the assignment
-  </details>
-
-### Quick Tips
-
-<details>
-<summary>Click to view</summary>
-<br>
-
-- Add third-party packages list yourself
-</details>
-
-### Important Note
-
-<details>
-<summary>Click to view</summary>
-<br/>
-
-- Add any important note here, like user credentials for authentication.
-
-</details>
-
-### Resources
-
-<details>
-<summary>Data Fetch URLs</summary>
-<br/>
-
-- Add the URLs list to fetch the data yourself
-
-</details>
-
-<details>
-<summary>Image URLs</summary>
-<br/>
-
-- Add the list of all image URLs needed in the assignment yourself.
-
-</details>
-
-<details>
-<summary>Colors</summary>
-<br/>
-
-Add the text and background colours to be used in the assignment yourself.
-
-<!-- <div style="background-color: #3b82f6; width: 150px; padding: 10px; color: white">Hex: #3b82f6</div> -->
-
-</details>
-
-<details>
-<summary>Font-families</summary>
-
-- Add the font-families to be used in the assignment yourself.
-
-</details>
+1. Download the Code:
+First, download the zip file containing the application code from the GitHub repository.
+2. Unzip the File:
+Unzip the downloaded file to access the application code.
+3. Open with VS Code:
+Open the unzipped folder using any code editor, such as Visual Studio Code.
+4. npm install
+Run the command for installing the required packages
+5. npm start
+Now Run this command to start with the application
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
