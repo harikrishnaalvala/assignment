@@ -10,7 +10,7 @@ const SearchResultsPage = () => {
   const fetchSearchResults = useCallback(async () => {
     try {
       const response = await fetch(
-        `https://api.themoviedb.org/3/search/movie?api_key=28cd1a02f267ddfad6c7720a93b85e07&language=en-US&query=${searchInput}&page=1`,
+        `https://api.themoviedb.org/3/search/movie?api\_key=${Api\_key}&language=en-US&query=${movie\_name}&page=1`,
       )
       if (!response.ok) {
         throw new Error('Failed to fetch search results')
